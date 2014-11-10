@@ -34,8 +34,11 @@ class Prime_Number:
 #Main function that calls the other functions.
 #########
 def main():
+	#prime is a Prime_Number object
 	prime = Prime_Number()
+	#getting the user input...
 	upperLimit = int(input('Please enter a number you wish to find all prime numbers less than.'))
+	#list all of the prime numbers less than or equal to the user input
 	prime.list_primes(upperLimit)
 
 
